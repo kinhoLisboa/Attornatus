@@ -19,7 +19,7 @@ import lombok.Setter;
 @Setter
 @Entity
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
-public class Vendas {
+public class Venda {
 	
 	@Id
 	@GeneratedValue(strategy =GenerationType.IDENTITY )
